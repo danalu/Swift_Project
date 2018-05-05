@@ -41,5 +41,39 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>NSExceptionAllowsInsecureHTTPLoads</key>
+			<string>YES</string>
+			<key>NSExceptionRequiresForwardSecrecy</key>
+			<false/>
+			<key>NSIncludesSubdomains</key>
+			<false/>
+			<key>merchant.com.eyee.eyeeappleypay</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<string>YES</string>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<string>NO</string>
+				<key>NSIncludesSubdomains</key>
+				<string>NO</string>
+			</dict>
+			<key>s3.cn-north-1.amazonaws.com.cn</key>
+			<dict>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
+		</dict>
+		<key>NSIncludesSubdomains</key>
+		<string>YES</string>
+		<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+		<string>YES</string>
+		<key>NSTemporaryExceptionMinimumTLSVersion</key>
+		<string>TLSv1.2</string>
+	</dict>
 </dict>
 </plist>

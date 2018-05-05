@@ -10,5 +10,8 @@ pod 'AFNetworking', '~> 3.2.0'
 pod 'ReachabilitySwift'
 pod 'NVActivityIndicatorView'
 pod 'SnapKit'
+pod 'HandyJSON'
+pod 'MTDates', '~> 1.0.2'
+pod 'YYText', '~> 1.0.7'
 
 end

@@ -12,7 +12,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="5mU-KB-EWQ">
             <objects>
-                <tabBarController id="Xcc-6P-LLI" sceneMemberID="viewController">
+                <tabBarController id="Xcc-6P-LLI" customClass="ZLTabBarController" customModule="TestProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lUm-Ok-MtB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -21,7 +21,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SaE-Y0-uVk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-482" y="-146"/>
+            <point key="canvasLocation" x="-1497" y="-342"/>
         </scene>
     </scenes>
 </document>

@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		9B0FAA92E51B6988E47FCA54 /* Pods_TestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF3F33C653C713E100F136B /* Pods_TestProject.framework */; };
+		BF1265BF2086D83C0087D173 /* ZLDomainSwitchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1265BE2086D83C0087D173 /* ZLDomainSwitchController.swift */; };
+		BF1265C32086E19D0087D173 /* ZLBaseJsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1265C22086E19D0087D173 /* ZLBaseJsonModel.swift */; };
+		BF1265C520872C440087D173 /* ZLDomainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1265C420872C440087D173 /* ZLDomainManager.swift */; };
+		BF1D66222085D54100D7D600 /* ZLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D66212085D54100D7D600 /* ZLBaseViewController.swift */; };
+		BF1D66292085E53800D7D600 /* ZLMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D66282085E53800D7D600 /* ZLMainViewController.swift */; };
+		BF1D662C2085E8C100D7D600 /* ZLHttpBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D662B2085E8C100D7D600 /* ZLHttpBaseService.swift */; };
+		BF52FF11209AC57D006A1D28 /* ZLTime.m in Sources */ = {isa = PBXBuildFile; fileRef = BF52FF10209AC57D006A1D28 /* ZLTime.m */; };
+		BF52FF14209AFAE6006A1D28 /* UIFont+ZaLi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF52FF13209AFAE6006A1D28 /* UIFont+ZaLi.m */; };
+		BF52FF17209AFAFC006A1D28 /* UIColor+ZaLi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF52FF15209AFAFC006A1D28 /* UIColor+ZaLi.m */; };
+		BF5A10882089D7ED00C8C1E4 /* ZLBaseServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A10872089D7ED00C8C1E4 /* ZLBaseServiceResponse.swift */; };
+		BF706E0C2099CD6200B3DFA7 /* ZLPintuanManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF706E0B2099CD6200B3DFA7 /* ZLPintuanManager.swift */; };
 		BF73B59E2084914100107A93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73B59D2084914100107A93 /* AppDelegate.swift */; };
 		BF73B5A02084914100107A93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73B59F2084914100107A93 /* ViewController.swift */; };
 		BF73B5A32084914100107A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF73B5A12084914100107A93 /* Main.storyboard */; };
@@ -15,10 +26,26 @@
 		BF73B5A82084914900107A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF73B5A62084914900107A93 /* LaunchScreen.storyboard */; };
 		BF73B5B12084981600107A93 /* ZLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73B5B02084981600107A93 /* ZLTabBarController.swift */; };
 		BF73B5B32084ADEF00107A93 /* ZLMainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73B5B22084ADEF00107A93 /* ZLMainNavigationController.swift */; };
+		BFAA30A1208F3BF700BE4C9F /* ZLTestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAA30A0208F3BF700BE4C9F /* ZLTestService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABF3F33C653C713E100F136B /* Pods_TestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1265BE2086D83C0087D173 /* ZLDomainSwitchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLDomainSwitchController.swift; sourceTree = "<group>"; };
+		BF1265C22086E19D0087D173 /* ZLBaseJsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLBaseJsonModel.swift; sourceTree = "<group>"; };
+		BF1265C420872C440087D173 /* ZLDomainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLDomainManager.swift; sourceTree = "<group>"; };
+		BF1D66212085D54100D7D600 /* ZLBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLBaseViewController.swift; sourceTree = "<group>"; };
+		BF1D66282085E53800D7D600 /* ZLMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLMainViewController.swift; sourceTree = "<group>"; };
+		BF1D662B2085E8C100D7D600 /* ZLHttpBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLHttpBaseService.swift; sourceTree = "<group>"; };
+		BF1D662D20860BDD00D7D600 /* TestProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF52FF0F209AC57D006A1D28 /* ZLTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTime.h; sourceTree = "<group>"; };
+		BF52FF10209AC57D006A1D28 /* ZLTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTime.m; sourceTree = "<group>"; };
+		BF52FF12209AFAE6006A1D28 /* UIFont+ZaLi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+ZaLi.h"; sourceTree = "<group>"; };
+		BF52FF13209AFAE6006A1D28 /* UIFont+ZaLi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ZaLi.m"; sourceTree = "<group>"; };
+		BF52FF15209AFAFC006A1D28 /* UIColor+ZaLi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZaLi.m"; sourceTree = "<group>"; };
+		BF52FF16209AFAFC006A1D28 /* UIColor+ZaLi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZaLi.h"; sourceTree = "<group>"; };
+		BF5A10872089D7ED00C8C1E4 /* ZLBaseServiceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLBaseServiceResponse.swift; sourceTree = "<group>"; };
+		BF706E0B2099CD6200B3DFA7 /* ZLPintuanManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLPintuanManager.swift; sourceTree = "<group>"; };
 		BF73B59A2084914100107A93 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF73B59D2084914100107A93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF73B59F2084914100107A93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +55,7 @@
 		BF73B5A92084914900107A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF73B5B02084981600107A93 /* ZLTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLTabBarController.swift; sourceTree = "<group>"; };
 		BF73B5B22084ADEF00107A93 /* ZLMainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLMainNavigationController.swift; sourceTree = "<group>"; };
+		BFAA30A0208F3BF700BE4C9F /* ZLTestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLTestService.swift; sourceTree = "<group>"; };
 		D716E18821D680E57949D0A0 /* Pods-TestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestProject/Pods-TestProject.debug.xcconfig"; sourceTree = "<group>"; };
 		E8F1F9E34564D307081F858C /* Pods-TestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestProject/Pods-TestProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,6 +80,76 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BF1265BD2086D8030087D173 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BF1265BE2086D83C0087D173 /* ZLDomainSwitchController.swift */,
+				BF1265C22086E19D0087D173 /* ZLBaseJsonModel.swift */,
+				BF1265C420872C440087D173 /* ZLDomainManager.swift */,
+				BF5A10872089D7ED00C8C1E4 /* ZLBaseServiceResponse.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BF1D66232085E50500D7D600 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BF1D66282085E53800D7D600 /* ZLMainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BF1D66242085E50A00D7D600 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		BF1D66252085E51000D7D600 /* Shoe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shoe;
+			sourceTree = "<group>";
+		};
+		BF1D66262085E51500D7D600 /* B2C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = B2C;
+			sourceTree = "<group>";
+		};
+		BF1D66272085E51A00D7D600 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		BF1D662A2085E79200D7D600 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				BF1D662B2085E8C100D7D600 /* ZLHttpBaseService.swift */,
+				BFAA30A0208F3BF700BE4C9F /* ZLTestService.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		BF706E0A2099CD4600B3DFA7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BF52FF16209AFAFC006A1D28 /* UIColor+ZaLi.h */,
+				BF52FF15209AFAFC006A1D28 /* UIColor+ZaLi.m */,
+				BF52FF12209AFAE6006A1D28 /* UIFont+ZaLi.h */,
+				BF52FF13209AFAE6006A1D28 /* UIFont+ZaLi.m */,
+				BF706E0B2099CD6200B3DFA7 /* ZLPintuanManager.swift */,
+				BF52FF0F209AC57D006A1D28 /* ZLTime.h */,
+				BF52FF10209AC57D006A1D28 /* ZLTime.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		BF73B5912084914100107A93 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +171,14 @@
 		BF73B59C2084914100107A93 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				BF706E0A2099CD4600B3DFA7 /* Manager */,
+				BF1265BD2086D8030087D173 /* Others */,
+				BF1D662A2085E79200D7D600 /* network */,
+				BF1D66272085E51A00D7D600 /* Me */,
+				BF1D66262085E51500D7D600 /* B2C */,
+				BF1D66252085E51000D7D600 /* Shoe */,
+				BF1D66242085E50A00D7D600 /* Message */,
+				BF1D66232085E50500D7D600 /* Main */,
 				BF73B5AF208497F900107A93 /* Container */,
 				BF73B59D2084914100107A93 /* AppDelegate.swift */,
 				BF73B59F2084914100107A93 /* ViewController.swift */,
@@ -80,6 +186,7 @@
 				BF73B5A42084914900107A93 /* Assets.xcassets */,
 				BF73B5A62084914900107A93 /* LaunchScreen.storyboard */,
 				BF73B5A92084914900107A93 /* Info.plist */,
+				BF1D662D20860BDD00D7D600 /* TestProject-Bridging-Header.h */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -89,6 +196,7 @@
 			children = (
 				BF73B5B02084981600107A93 /* ZLTabBarController.swift */,
 				BF73B5B22084ADEF00107A93 /* ZLMainNavigationController.swift */,
+				BF1D66212085D54100D7D600 /* ZLBaseViewController.swift */,
 			);
 			path = Container;
 			sourceTree = "<group>";
@@ -197,16 +305,22 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TestProject/Pods-TestProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/MTDates/MTDates.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTDates.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -220,10 +334,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1265C32086E19D0087D173 /* ZLBaseJsonModel.swift in Sources */,
+				BF52FF17209AFAFC006A1D28 /* UIColor+ZaLi.m in Sources */,
+				BF1D66222085D54100D7D600 /* ZLBaseViewController.swift in Sources */,
 				BF73B5B32084ADEF00107A93 /* ZLMainNavigationController.swift in Sources */,
+				BF5A10882089D7ED00C8C1E4 /* ZLBaseServiceResponse.swift in Sources */,
+				BF52FF14209AFAE6006A1D28 /* UIFont+ZaLi.m in Sources */,
+				BF1D662C2085E8C100D7D600 /* ZLHttpBaseService.swift in Sources */,
+				BFAA30A1208F3BF700BE4C9F /* ZLTestService.swift in Sources */,
+				BF1265C520872C440087D173 /* ZLDomainManager.swift in Sources */,
 				BF73B5A02084914100107A93 /* ViewController.swift in Sources */,
 				BF73B59E2084914100107A93 /* AppDelegate.swift in Sources */,
+				BF1265BF2086D83C0087D173 /* ZLDomainSwitchController.swift in Sources */,
 				BF73B5B12084981600107A93 /* ZLTabBarController.swift in Sources */,
+				BF1D66292085E53800D7D600 /* ZLMainViewController.swift in Sources */,
+				BF52FF11209AC57D006A1D28 /* ZLTime.m in Sources */,
+				BF706E0C2099CD6200B3DFA7 /* ZLPintuanManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,15 +496,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BV3999M6N;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = TestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gh.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestProject/TestProject-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
 			};
 			name = Debug;
 		};
@@ -389,15 +519,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BV3999M6N;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = TestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gh.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestProject/TestProject-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
 			};
 			name = Release;
 		};

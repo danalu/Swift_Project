@@ -8,16 +8,19 @@
 
 import UIKit
 
-class ZLTabBarController: UITabBarController {
+class ZLTabBarController: UITabBarController, UITabBarControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ZLMainNavigationController.initOnce()
 
         // Do any additional setup after loading the view.
         self.tabBar.isTranslucent = false
-        self.tabBar.barTintColor = UIColor.lightGray
-        self.delegate = self as? UITabBarControllerDelegate
+        self.tabBar.barTintColor = UIColor.init(red: 242/255.0, green: 242/255.0, blue: 242/255.0, alpha: 1)
+        self.delegate = self
         
+        setupAllTabBarItems()
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,8 +30,20 @@ class ZLTabBarController: UITabBarController {
     
     // MARK: - tool
     func setupAllTabBarItems() -> Void {
-        var controller1 = UIViewController()
+        let controller1 = ZLMainViewController()
+        addChildViewController(controller1, title: "首页", imageName: "tabbar_home_n", selectedImage: "tabbar_home_h")
         
+        let controller2 = ZLBaseViewController()
+        addChildViewController(controller2, title: "资讯", imageName: "tabbar_item_discover_normal", selectedImage: "tabbar_item_discover_highlight")
+        
+        let controller3 = ZLBaseViewController()
+        addChildViewController(controller3, title: "球鞋", imageName: "tabbar_shoes_n", selectedImage: "tabbar_shoes_h")
+        
+        let controller4 = ZLBaseViewController()
+        addChildViewController(controller4, title: "购物", imageName: "tabbar_item_shoppingbag_normal", selectedImage: "tabbar_item_shoppingbag_highlight")
+        
+        let controller5 = ZLBaseViewController()
+        addChildViewController(controller5, title: "我的", imageName: "tabbar_item_personcenter_normal", selectedImage: "tabbar_item_personcenter_highlight")
     }
     
     func addChildViewController(_ viewcontroller: UIViewController, title: String, imageName: String, selectedImage: String) -> Void {
@@ -37,23 +52,32 @@ class ZLTabBarController: UITabBarController {
         viewcontroller.tabBarItem.selectedImage = UIImage.init(named: selectedImage)
         
         //正常的字体颜色
-//        NSMutableDictionary *normalAttr = [NSMutableDictionary dictionary];
-//        normalAttr[NSFontAttributeName] = [UIFont SCWithType:PingFangType_Regular size:9];
-//        normalAttr[NSForegroundColorAttributeName] = [UIColor getCommonColorWithColorType:ColorMiddleGrayType];
-//        [item setTitleTextAttributes:normalAttr forState:UIControlStateNormal];
-        var normalAttr: [String: Any] = Dictionary()
-        normalAtt[]
-        
+        var normalAttr: [NSAttributedStringKey: Any] = Dictionary()
+        normalAttr[NSAttributedStringKey.font] = UIFont.boldSystemFont(ofSize: 10)
+        normalAttr[NSAttributedStringKey.foregroundColor] = UIColor.init(red: 153/255.0, green: 153/255.0, blue: 153/255.0, alpha: 1)
+        viewcontroller.tabBarItem.setTitleTextAttributes(normalAttr, for: UIControlState.normal)
         
         //选中字体颜色
-//        NSMutableDictionary *selectedAttr = [NSMutableDictionary dictionary];
-//        selectedAttr[NSFontAttributeName] = [UIFont SCWithType:PingFangType_Regular size:9];
-//        selectedAttr[NSForegroundColorAttributeName] = [UIColor getCommonColorWithColorType:ColorMainType];
-//        [item setTitleTextAttributes:selectedAttr forState:UIControlStateSelected];
-
+        var selectedAttr: [NSAttributedStringKey: Any] = Dictionary()
+        selectedAttr[NSAttributedStringKey.font] = UIFont.boldSystemFont(ofSize: 10)
+        selectedAttr[NSAttributedStringKey.foregroundColor] = UIColor.init(red: 51/255.0, green: 51/255.0, blue: 51/255.0, alpha: 1)
+        viewcontroller.tabBarItem.setTitleTextAttributes(selectedAttr, for: UIControlState.selected)
         
-        var nav: ZLMainNavigationController = ZLMainNavigationController(rootViewController: viewcontroller)
+        //使用原图.
+        viewcontroller.tabBarItem.image = UIImage.init(named: imageName)?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        viewcontroller.tabBarItem.selectedImage = UIImage.init(named: selectedImage)?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        
+        let nav: ZLMainNavigationController = ZLMainNavigationController(rootViewController: viewcontroller)
         addChildViewController(nav)
+    }
+    
+    // MARK: UITabBarDelegate
+    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+        return true;
+    }
+    
+    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+        //选中了当前的tab页面.
     }
 
     /*

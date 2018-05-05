@@ -14,31 +14,43 @@ PODS:
   - AFNetworking/Serialization (3.2.0)
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
+  - HandyJSON (4.1.1)
+  - MTDates (1.0.3)
   - NVActivityIndicatorView (4.2.0):
     - NVActivityIndicatorView/Presenter (= 4.2.0)
   - NVActivityIndicatorView/Presenter (4.2.0)
   - ReachabilitySwift (4.1.0)
   - SnapKit (4.0.0)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.0)
+  - HandyJSON
+  - MTDates (~> 1.0.2)
   - NVActivityIndicatorView
   - ReachabilitySwift
   - SnapKit
+  - YYText (~> 1.0.7)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - HandyJSON
+    - MTDates
     - NVActivityIndicatorView
     - ReachabilitySwift
     - SnapKit
+    - YYText
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
+  MTDates: c65affdfb7b34001c5c9e3fe0beac4b1b8334a58
   NVActivityIndicatorView: 75c9634073e03b31d7e2748cd2417feab1206195
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: c006ed1c264bfc0d5f19957d9f26977dfac9d675
+PODFILE CHECKSUM: 7df8c5947bf86017728da54bf884c17b4324cdb5
 
 COCOAPODS: 1.5.0

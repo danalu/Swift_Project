@@ -13,6 +13,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let button: UIButton = UIButton()
+        button.addTarget(self, action: #selector(test(_:)), for: .touchUpInside)
+    }
+    
+    @objc func test(_ sender: UIButton)  {
+        
+    }
+    
+    func testError() throws -> String {
+        let random = 123
+        throw NSError(domain: "test", code: 1000, userInfo: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +33,6 @@ class ViewController: UIViewController {
     }
 
 
+    
 }
 
