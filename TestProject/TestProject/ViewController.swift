@@ -14,8 +14,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
-        
         let button: UIButton = UIButton()
         button.addTarget(self, action: #selector(test(_:)), for: .touchUpInside)
     }
